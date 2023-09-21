@@ -1,0 +1,81 @@
+.header {
+    &__top {
+        background-color: #F19D2F;
+        font-weight: 400;
+        padding: 11px 0px;
+        text-align: center;
+    }
+    &__mid {
+        background-color: #FFD1AC;
+        padding: 19px 0px;
+        text-align: center;
+    }
+    &__logo {
+        margin-bottom: 10px;
+    }
+    &__title {
+        font-size: 13.5px;
+        line-height: 13px;
+    }
+    .banner {
+        height: 281px;
+        width: 100%;
+        background-image: url("/images/banner.png");
+        background-repeat: no-repeat;
+        background-position: center 65%;
+        background-size: 140%, cover;
+        position: relative;
+        &__price {
+            border-radius: 5.677px;
+            background: #37D997;
+            padding: 6px 7px;
+            position: absolute;
+            right: 13px;
+            bottom: 13px;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+            .underline {
+                display: block;
+                position: relative;
+                font-size: 18px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    height: 3px;
+                    width: 100%;
+                    background-color: #E27500;
+                    border-radius: 5px;
+                    left: 0;
+                    top: 45%;
+                }
+            }
+            .actual {
+                font-size: 22px;
+            }
+        }
+    }
+    .timer {
+        border-radius: 7px;
+        background: #F19D2F;
+        position: absolute;
+        padding: 9px 7px;
+        color: #fff;
+        font-weight: 700;
+        left: 13px;
+        bottom: 13px;
+        min-width: 103px;
+        text-align: center;
+        &__title {
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        &__wrap {
+            margin-top: 3px;
+        }
+        &__spot {
+            margin: -2px;
+            font-size: 21px;
+        }
+    }
+}

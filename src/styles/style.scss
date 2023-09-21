@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html { width:100%; height: 100%; }
+body
+{
+    height:100%;
+    margin:0;
+    padding:0;
+    color: #2C2B31;
+    font-family: "gothampro", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 15px;
+}
